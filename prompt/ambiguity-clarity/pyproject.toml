@@ -1,0 +1,37 @@
+[project]
+name = "ambiguity-clarity"
+version = "0.1.0"
+description = "A Python library for identifying and resolving ambiguous prompts in prompt engineering"
+readme = "README.md"
+authors = [
+    { name = "tensorflowters", email = "athurbequie@protonmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-openai>=0.1.0",
+    "langchain-core>=0.1.0",
+    "langchain-community>=0.0.31",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-mock",
+    "black>=23.0.0",
+    "isort>=5.12.0",
+    "mypy>=1.0.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = ["-v", "--color=yes"]
+markers = [
+    "integration: marks tests as integration tests (require OPENAI_API_KEY)",
+]
+
+
+[build-system]
+requires = ["uv-build"]
+build-backend = "uv_build"
