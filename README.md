@@ -22,6 +22,7 @@ The ai-recipes workspace is organized into logical namespaces:
 ## Getting Started
 
 Each recipe includes:
+
 - 📋 Clear prerequisites and dependencies
 - 🚀 Quick start guide
 - ⚙️ Configuration options and customization
