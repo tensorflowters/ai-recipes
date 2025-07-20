@@ -1,0 +1,19 @@
+[project]
+name = "ai-recipes-llm"
+version = "0.1.0"
+description = "LLM utilities within the ai.recipes namespace"
+authors = [{name = "Your Name", email = "you@example.com"}]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/yourorg/ai-recipes"
+
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+namespaces = true

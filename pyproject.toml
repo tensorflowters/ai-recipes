@@ -1,0 +1,9 @@
+[project]
+name = "ai-recipes-workspace"
+version = "0.0.0"
+description = "Workspace aggregator for ai.recipes namespace packages"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.uv.workspace]
+members = ["ai-recipes-llm", "ai-recipes-vision"]
