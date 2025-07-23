@@ -166,10 +166,3 @@ cython_debug/
 # IDE
 .idea/
 .vscode/
-.cursor/
-.cursorrules
-.cursorignore
-.cursorignorerules
-.cursorignorerulesrules
-.cursorignorerulesrulesrules
-.cursorignorerulesrulesrulesrules
